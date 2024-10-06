@@ -1,0 +1,47 @@
+* {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: wheat;
+  text-decoration: solid;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+}
+.movie-container > h2 {
+  font-size: 2.5rem;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-style {
+  margin: 10px;
+  padding: 10px;
+  height: 600px;
+  width: 300px;
+  border: 3px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Applying hover effect */
+.movie-style:hover {
+  transform: scale(1.05); /* Slight zoom */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  border-color: rgb(60, 60, 60); /* Change border color */
+  transition: 1ms;
+}
+
+img {
+  border-radius: 10px;
+}
