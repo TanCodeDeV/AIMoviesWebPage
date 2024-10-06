@@ -16,7 +16,7 @@ export const aiMovies = [
     director: "Spike Jonze",
     rating: 8.0,
     runtime: "126 minutes",
-    poster: "/movieImages/her.jpg",
+    poster: "/movieImages/Blade Runner 2049.jpg",
     wikiUrl: "https://en.wikipedia.org/wiki/Her_(film)",
   },
   {
